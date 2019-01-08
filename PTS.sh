@@ -12,6 +12,8 @@ read filepath
 
 touch $filepath
 
+chmod +x $filepath
+
 xdg-open $filepath
 
 
